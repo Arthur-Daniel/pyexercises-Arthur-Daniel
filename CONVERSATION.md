@@ -136,3 +136,21 @@ print("Hello, " + name + "!")        # TODO: Change the string to greet the user
 ```
 
 What does the input() function return as a data type?
+
+---
+## 2026-10-27 15:21, in .
+
+**Me:** What is int ?
+
+**Tutor:**
+
+`int` is a built-in function that converts a value to an integer (whole number).
+
+```python
+# TODO: convert the string "42" to an integer
+value = "42"
+converted = int(value)
+print(converted)  # prints 42
+```
+
+What argument does `int()` expect?
