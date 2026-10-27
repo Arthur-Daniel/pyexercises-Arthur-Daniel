@@ -154,3 +154,32 @@ print(converted)  # prints 42
 ```
 
 What argument does `int()` expect?
+
+---
+## 2026-10-27 16:12, in .
+
+**Me:** what is the difference between strip and lower ?
+
+**Tutor:**
+
+The difference between strip and lower.
+
+- strip removes whitespace (spaces, tabs, newlines) from the start and end of a string.
+- lower converts all letters in a string to lowercase.
+
+Pattern on toy data:
+
+```python
+text = "  Hello World  "
+
+# TODO: remove whitespace from both ends
+cleaned = text.strip()
+
+# TODO: convert all letters to lowercase
+lowercase = text.lower()
+
+print(cleaned)    # prints "Hello World"
+print(lowercase)  # prints "  hello world  "
+```
+
+Which function changes the case of the letters?
