@@ -288,3 +288,22 @@ print(my_list)     # Output will be [40, 30, 20, 10]
 ```
 
 Question: Which built-in method reverses a list **without modifying the original list**?
+
+---
+## 2026-10-27 17:46, in .
+
+**Me:** How do I add a new item to a dictionary ?
+
+**Tutor:**
+
+Concept: Adding or updating a key-value pair in a dictionary.
+
+```python
+# Example dictionary
+campaign = {"name": "Summer Sale", "budget": 5000}
+
+# TODO: Add a new key "channel" with value "email"
+# TODO: Update the budget to 5500
+```
+
+Question: Which method is used to add or update a key-value pair in a dictionary?
