@@ -22,16 +22,19 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My message, and why:
+# 1. In: a string with a sentence
+# 2. Process: a for loop printing my sentence 5 time to show the repetition
+# 3. Out: my sentence is printed 5 time and I can look at the result
+# 4. My message, and why: wrote a python file to print my sentence 5 times using print
 
 
 # Your code below
-print("Hello, world!")
-print("1. Hello")
-print("2. Hello")
-print("3. Hello")
-print("4. Hello")
-print("5. Hello")
+print("Good Luck!")
+print("1. Good Luck")
+print("2. Good Luck")
+print("3. Good Luck")
+print("4. Good Luck")
+print("5. Good Luck")
+
+for i in range(0,5):
+    print("Good Luck")
