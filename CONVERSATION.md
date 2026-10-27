@@ -233,3 +233,22 @@ else:
 ```
 
 Question: Which keyword must come immediately after the last `elif` if you want a final fallback?
+
+---
+## 2026-10-27 17:09, in .
+
+**Me:** What does pop ?
+
+**Tutor:**
+
+`pop` removes an item from a list and returns it.
+
+```python
+# Example: remove the item at index 1 and return it
+shopping = ["apples", "bread", "milk"]
+removed = shopping.pop(1)   # TODO: which index is removed here?
+print(removed)              # prints bread
+print(shopping)             # prints ["apples", "milk"]
+```
+
+Which built-in list method removes an item by its position and returns it?
