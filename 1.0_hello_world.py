@@ -4,7 +4,7 @@ WHAT THE PROGRAM MUST DO
     Display a message of your choice, five times, with each line numbered.
 
 ANSWER THESE FIRST, in comments at the top of your file, before any code
-    1. What goes in?
+    1. What goes in? 
     2. What happens to it?
     3. What comes out?
     4. What message did you choose, and why that one?
@@ -30,3 +30,8 @@ DELIVERABLE
 
 # Your code below
 print("Hello, world!")
+print("1. Hello")
+print("2. Hello")
+print("3. Hello")
+print("4. Hello")
+print("5. Hello")
