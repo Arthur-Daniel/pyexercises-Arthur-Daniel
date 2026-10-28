@@ -307,3 +307,21 @@ campaign = {"name": "Summer Sale", "budget": 5000}
 ```
 
 Question: Which method is used to add or update a key-value pair in a dictionary?
+
+---
+## 2026-10-28 09:14, in .
+
+**Me:** What is loop use for ?
+
+**Tutor:**
+
+Looping is used to repeat a block of code while a condition is true or for each item in a collection.
+
+```python
+# Iterate over a list of toy products
+products = ["alpha", "beta", "gamma"]
+
+# TODO: print each product name
+```
+
+What built-in function lets you loop over every element in a list?
