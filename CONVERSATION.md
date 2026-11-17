@@ -357,3 +357,12 @@ for n in clicks:
 ```
 
 What keyword do you place after `if` to exit the loop?
+
+---
+## 2026-11-17 12:31, in .
+
+**Me:** check
+
+**Tutor:**
+
+Refused, off topic.
