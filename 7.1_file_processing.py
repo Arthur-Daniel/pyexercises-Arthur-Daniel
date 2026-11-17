@@ -49,3 +49,54 @@ DELIVERABLE
 
 
 # Your code below
+
+import os
+
+INPUT_FILE = "names.txt"
+OUTPUT_FILE = "names_clean.txt"
+
+
+# Return the last name of a clean name: the last word of the line
+def get_last_name(name):
+    words = name.split()
+    return words[-1]
+
+
+# Read the file and return the list of clean names (no empty lines, no extra spaces,
+# a capital on each word). The original file is only read.
+def load_clean_names(filename):
+    names = []
+    with open(filename, encoding="utf-8") as file:
+        for line in file:
+            line = line.strip()
+            if line == "":
+                continue  # empty line: nothing to keep
+            names.append(line.title())
+    return names
+
+
+# Write the names in a new file, one per line
+def save_names(filename, names):
+    with open(filename, "w", encoding="utf-8") as file:
+        for name in names:
+            file.write(name + "\n")
+
+
+if not os.path.exists(INPUT_FILE):
+    print("I cannot find", INPUT_FILE, "- check that it is in the same folder.")
+else:
+    # count the lines of the original file, to compare with the output file
+    with open(INPUT_FILE, encoding="utf-8") as file:
+        lines_before = len(file.readlines())
+
+    names = load_clean_names(INPUT_FILE)
+    # sorted() returns a NEW list: my cleaned list is not changed
+    sorted_names = sorted(names, key=get_last_name)
+    save_names(OUTPUT_FILE, sorted_names)
+
+    print("Lines in", INPUT_FILE + ":", lines_before)
+    print("Lines in", OUTPUT_FILE + ":", len(sorted_names))
+    print("Sorted names:")
+    for name in sorted_names:
+        print(" ", name)
+        
