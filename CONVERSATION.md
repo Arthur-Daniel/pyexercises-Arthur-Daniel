@@ -385,3 +385,24 @@ print(total)  # expected: 20
 ```
 
 What is the name of the function you just used?
+
+---
+## 2026-11-17 13:29, in .
+
+**Me:** What is elif use for ?
+
+**Tutor:**
+
+The elif keyword adds another condition to an if statement when the first condition is false.
+
+```python
+# TODO: replace the ??? with the right comparison
+if clicks > 100:
+    print("High engagement")
+elif ???:
+    print("Medium engagement")
+else:
+    print("Low engagement")
+```
+
+What function does elif take as its first argument?
