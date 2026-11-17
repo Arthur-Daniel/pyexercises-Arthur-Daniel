@@ -425,3 +425,153 @@ with open(file_path, "r") as file:  # "r" means read mode
 ```
 
 What does the second argument `"r"` specify?
+
+---
+## 2026-11-17 15:09, in .
+
+**Me:** Why do we use int() on the numbers we read from the CSV file?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-17 15:09, in .
+
+**Me:** Why do we use int() on the numbers?
+
+**Tutor:**
+
+Converting text to integers.
+
+```python
+# TODO: convert the string '42' to an integer
+text_number = '42'
+integer_number = int(text_number)
+print(integer_number + 1)  # prints 43
+```
+
+What does int() return when the text is not a valid number?
+
+---
+## 2026-11-17 15:10, in .
+
+**Me:** What is the difference between return and print in a function?
+
+**Tutor:**
+
+Difference between return and print
+- print sends text to the console so you can see it.
+- return sends a value back to the place where the function was called so the caller can use it later.
+
+Pattern
+```python
+def add(a, b):
+    total = a + b
+    # TODO: decide whether to print or return
+    # print(total)
+    return total
+
+result = add(3, 4)
+print("The answer is", result)
+```
+
+Question: which keyword lets the caller reuse the value outside the function?
+
+---
+## 2026-11-17 15:10, in .
+
+**Me:** Why do we store each option as a tuple and not as a list?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-17 15:11, in .
+
+**Me:** Why do we open results.csv with 'a' and not with 'w'?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-17 15:11, in .
+
+**Me:** How does max() find the biggest tuple in a list of tuples?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-17 15:12, in .
+
+**Me:** What is a tuple?
+
+**Tutor:**
+
+A tuple is an immutable sequence of items in Python.
+
+```python
+# Creating a tuple
+campaign = ("Summer Sale", 2024, 4500.75)
+
+# Accessing items
+name = campaign[0]  # TODO: what index gives the year?
+budget = campaign[2]  # TODO: what index gives the budget?
+```
+
+What function returns the number of items in a tuple?
+
+---
+## 2026-11-17 15:12, in .
+
+**Me:** What does break do?
+
+**Tutor:**
+
+The `break` statement stops the current loop immediately and moves to the next line after the loop.
+
+```python
+for item in ["alpha", "beta", "gamma"]:
+    print(item)
+    if item == "beta":
+        break
+    print("still in loop")
+print("loop ended")
+```
+
+What does the loop print before it ends?
+
+---
+## 2026-11-17 15:12, in .
+
+**Me:** What is a CSV file?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-17 15:12, in .
+
+**Me:** What does random.shuffle do?
+
+**Tutor:**
+
+Randomly reorders the items inside a list.
+
+```python
+import random
+
+def shuffle_example(items):
+    # TODO: call random.shuffle on the list
+    return items
+
+# Example call
+print(shuffle_example(['alpha', 'beta', 'gamma']))
+```
+
+Which argument does random.shuffle expect?
