@@ -406,3 +406,22 @@ else:
 ```
 
 What function does elif take as its first argument?
+
+---
+## 2026-11-17 13:34, in .
+
+**Me:** What is open() used for ?
+
+**Tutor:**
+
+Opening a file to read from or write to it.
+
+```python
+# Example: reading a text file line by line
+file_path = "data.txt"
+with open(file_path, "r") as file:  # "r" means read mode
+    for line in file:
+        print(line.strip())  # strip() removes extra whitespace
+```
+
+What does the second argument `"r"` specify?
