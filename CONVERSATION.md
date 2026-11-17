@@ -366,3 +366,22 @@ What keyword do you place after `if` to exit the loop?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-17 13:27, in .
+
+**Me:** How to use sum ?
+
+**Tutor:**
+
+Summing numbers in a list.
+
+```python
+# TODO: import the correct built-in function
+
+numbers = [2, 4, 6, 8]
+total = # TODO: call the function on the list
+print(total)  # expected: 20
+```
+
+What is the name of the function you just used?
